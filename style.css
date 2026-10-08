@@ -549,6 +549,32 @@ section {
     line-height: 1.9;
 }
 
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+}
+
+.about-list li {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4A4037;
+    padding-left: 1.4rem;
+    position: relative;
+    line-height: 1.7;
+}
+
+.about-list li::before {
+    content: '—';
+    color: #C9A961;
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+}
+
 .about-image {
     width: 100%;
     height: 400px;
@@ -1436,6 +1462,75 @@ section {
     color: #C9A961;
     font-weight: 700;
     flex-shrink: 0;
+}
+
+.circuit-modal-desc p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.92rem;
+    line-height: 1.8;
+    color: #5D4E37;
+    margin-bottom: 0.75rem;
+}
+
+.modal-section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.74rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #C9A961;
+    margin: 1.2rem 0 0.5rem;
+}
+
+.modal-activites-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.3rem 0 0.75rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.modal-activites-list li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    color: #5D4E37;
+    padding-left: 1rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.modal-activites-list li::before {
+    content: '·';
+    color: #C9A961;
+    position: absolute;
+    left: 0;
+    font-size: 1.4rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.inclus-cat-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.74rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #8B7355 !important;
+    margin-top: 1rem !important;
+    padding-left: 0 !important;
+    border-top: 1px solid rgba(201, 169, 97, 0.2);
+    padding-top: 0.8rem !important;
+}
+
+.circuit-modal-inclus li.inclus-cat-header::before {
+    display: none;
+}
+
+.circuit-modal-inclus li.inclus-cat-header:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    border-top: none;
 }
 
 .circuit-modal-cta {

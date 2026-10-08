@@ -8,15 +8,25 @@ const CIRCUITS_FR = [
         name: 'Tadrart Rouge', type: 'Bivouac', typeClass: 'type-bivouac',
         duration: '6 jours / 5 nuits',
         photos: ['Photos/Image 9.webp', 'Photos/Image 16.webp', 'Photos/Image 14.webp'],
-        desc: "Plongez au cœur des dunes de sable roux de la Tadrart, l'un des paysages les plus spectaculaires du Sahara. Cinq nuits en bivouac sous un ciel étoilé d'exception, entouré de formations rocheuses millénaires et d'horizons infinis à perte de vue.",
-        inclus: ['Transferts depuis/vers Djanet', 'Guide touareg certifié', 'Équipe logistique locale', 'Bivouac complet (tentes, sacs de couchage)', 'Repas et eau minérale inclus']
+        desc: "<p>Plongez au cœur des dunes de sable roux de la Tadrart, l'un des paysages les plus spectaculaires du Sahara. Pendant cinq nuits en bivouac sous un ciel étoilé d'exception, laissez-vous porter par une aventure hors du temps, entre silence absolu et immensité à perte de vue.</p><p>Bienvenue dans la Tadrart Rouge, un monde à part, où chaque paysage semble tout droit sorti d'une autre planète. Arches naturelles sculptées par le vent, falaises rouge sombre, dunes majestueuses… Ici, tout évoque Mars : les couleurs intenses, la solitude, l'infini. Une véritable exploration d'un univers unique, sans quitter la Terre.</p><h4 class=\"modal-section-title\">Lieux</h4><p>La Tadrart Rouge est un voyage vers un autre monde : des vallées couleur de feu, des arches monumentales figées dans le silence, des dunes rouges qui s'étendent comme un océan brûlant. De Moul n'Aga à Tin Merzouga, chaque étape offre un décor grandiose où ciel et terre semblent se confondre. Au cœur du Tassili, la roche raconte l'histoire du vent, de la lumière et du temps, dans un paysage aussi brut que fascinant.</p><h4 class=\"modal-section-title\">Activités</h4><p>Explorer les arches naturelles, marcher dans les vallées rouges, gravir les dunes au lever ou au coucher du soleil… Chaque instant est une immersion dans la beauté sauvage du désert. Mais la Tadrart, c'est aussi des moments de partage :</p><ul class=\"modal-activites-list\"><li>Soirées conviviales autour du feu</li><li>Jeux dans les dunes comme le beach-volley</li><li>Veillées sous les étoiles avec des parties de Loup-Garou</li><li>Temps d'échange et de découverte avec votre équipe touarègue</li></ul><p>Entre aventure, contemplation et convivialité, chaque journée devient un souvenir inoubliable.</p>",
+        inclus_cats: [
+            { cat: 'Transport & Logistique', items: ["Billet d'avion Alger – Djanet – Alger (selon la formule choisie)", "Accueil et transferts aéroport à Djanet", "Transport en 4x4 avec chauffeur touareg expérimenté"] },
+            { cat: 'Hébergement & Vie sur place', items: ["Hébergement en bivouac", "Matériel de bivouac prêté : tente, matelas, couverture, oreiller", "Pension complète dans le désert : petit-déjeuner, déjeuner, goûter / pause café, dîner"] },
+            { cat: 'Activités & Découvertes', items: ["Excursions et randonnées prévues dans le programme", "Droits d'entrée aux sites et parcs (Tadrart, gravures rupestres, oasis, etc.)", "Soirées animées autour du feu (chants, musique touareg)"] },
+            { cat: 'Encadrement & Accompagnement', items: ["Guide touareg francophone / anglophone / arabophone / amazighophone", "Assistance sur place et organisation complète", "Accompagnement pour la démarche de visa"] }
+        ]
     },
     {
         name: 'Ihrir Essendilène', type: 'Bivouac', typeClass: 'type-bivouac',
         duration: '6 jours / 5 nuits',
         photos: ['Photos/Image 7.webp', 'Photos/Image 12.webp', 'Photos/Image 13.webp'],
-        desc: "Partez explorer les gorges et formations rocheuses spectaculaires d'Ihrir et d'Essendilène. Arches naturelles, gravures rupestres et bivouac sous un ciel d'une clarté absolue — une immersion totale dans le Sahara algérien.",
-        inclus: ['Transferts depuis/vers Djanet', 'Guide touareg certifié', 'Équipe logistique locale', 'Bivouac complet (tentes, sacs de couchage)', 'Repas et eau minérale inclus']
+        desc: "<p>Partez à la découverte d'un Sahara vivant et contrasté, où l'eau et la roche dessinent des paysages inattendus. Entre les oasis verdoyantes d'Ihrir, les gorges spectaculaires d'Essendilène et les arches monumentales de Tikobaouine, ce circuit vous plonge dans une aventure authentique et apaisante.</p><p>Pendant plusieurs nuits en bivouac, laissez-vous porter par le rythme du désert : marcher, contempler, partager… et surtout ressentir l'immensité et la sérénité de ces lieux hors du temps. Bienvenue dans un Sahara différent, où les gueltas scintillent au cœur des montagnes, où les canyons offrent fraîcheur et ombre, et où chaque journée révèle un nouveau visage du Tassili.</p><h4 class=\"modal-section-title\">Lieux</h4><p>Le circuit Ihrir – Essendilène vous emmène à travers certains des sites les plus emblématiques du Tassili n'Ajjer. Des villages d'Ihrir, nichés entre palmeraies et eaux limpides, aux gorges encaissées d'Essendilène, chaque étape dévoile un paysage unique. À Tikobaouine et Adaïk, d'immenses arches de pierre surgissent au milieu du désert, sculptées par le temps et les éléments. Le voyage se poursuit jusqu'à Tigharghart, où les célèbres gravures rupestres témoignent d'un passé millénaire.</p><h4 class=\"modal-section-title\">Activités</h4><p>Randonnées à travers les vallées et les canyons, baignades dans les gueltas naturelles, exploration des arches rocheuses… chaque journée est une invitation à découvrir et à ressentir. Mais ce voyage, c'est aussi des moments humains et chaleureux :</p><ul class=\"modal-activites-list\"><li>Soirées autour du feu sous un ciel étoilé</li><li>Découverte des traditions et du mode de vie touareg</li><li>Temps de détente dans les oasis</li><li>Jeux et instants conviviaux en pleine nature</li></ul><p>Entre aventure douce, contemplation et partage, chaque instant devient un souvenir précieux.</p>",
+        inclus_cats: [
+            { cat: 'Transport & Logistique', items: ["Billet d'avion Alger – Djanet – Alger (selon la formule choisie)", "Accueil et transferts à l'aéroport de Djanet", "Déplacements en 4x4 avec chauffeur touareg expérimenté"] },
+            { cat: 'Hébergement & Vie sur place', items: ["Hébergement en bivouac au cœur du désert", "Matériel fourni : tente, matelas, couverture, oreiller", "Pension complète : petit-déjeuner, déjeuner, pause café/goûter, dîner"] },
+            { cat: 'Activités & Découvertes', items: ["Randonnées et excursions prévues au programme", "Accès aux sites naturels et culturels (oasis, gravures, canyons…)", "Soirées animées : chants, musique et ambiance touarègue"] },
+            { cat: 'Encadrement & Accompagnement', items: ["Guide touareg (francophone / anglophone / arabophone / amazighophone)", "Organisation complète et assistance sur place", "Aide pour les démarches de visa"] }
+        ]
     },
     {
         name: 'Tadrart Rouge', type: 'Chameau', typeClass: 'type-chameau',
@@ -60,15 +70,25 @@ const CIRCUITS_EN = [
         name: 'Tadrart Rouge', type: 'Bivouac', typeClass: 'type-bivouac',
         duration: '6 days / 5 nights',
         photos: ['Photos/Image 9.webp', 'Photos/Image 16.webp', 'Photos/Image 14.webp'],
-        desc: "Immerse yourself in the red sand dunes of the Tadrart, one of the most spectacular landscapes in the Sahara. Five nights bivouacking under an exceptional starry sky, surrounded by ancient rock formations and endless horizons as far as the eye can see.",
-        inclus: ['Transfers from/to Djanet', 'Certified Tuareg guide', 'Local logistics team', 'Full bivouac (tents, sleeping bags)', 'Meals and mineral water included']
+        desc: "<p>Immerse yourself in the red sand dunes of the Tadrart, one of the most spectacular landscapes in the Sahara. For five nights bivouacking under an exceptional starry sky, let yourself be carried by a timeless adventure, between absolute silence and boundless vastness.</p><p>Welcome to the Tadrart Rouge, a world apart, where every landscape seems to come straight from another planet. Natural arches sculpted by the wind, dark red cliffs, majestic dunes… Everything here evokes Mars: the intense colours, the solitude, the infinite. A true exploration of a unique universe, without leaving Earth.</p><h4 class=\"modal-section-title\">Places</h4><p>The Tadrart Rouge is a journey to another world: fire-coloured valleys, monumental arches frozen in silence, red dunes stretching like a burning ocean. From Moul n'Aga to Tin Merzouga, each stage offers a grandiose setting where sky and earth seem to merge. At the heart of the Tassili, the rock tells the story of wind, light and time, in a landscape as raw as it is fascinating.</p><h4 class=\"modal-section-title\">Activities</h4><p>Exploring natural arches, walking through red valleys, climbing dunes at sunrise or sunset… Every moment is an immersion in the wild beauty of the desert. But the Tadrart is also a place for sharing:</p><ul class=\"modal-activites-list\"><li>Convivial evenings around the campfire</li><li>Games in the dunes like beach volleyball</li><li>Stargazing nights with games of Werewolf</li><li>Moments of exchange and discovery with your Tuareg team</li></ul><p>Between adventure, contemplation and conviviality, every day becomes an unforgettable memory.</p>",
+        inclus_cats: [
+            { cat: 'Transport & Logistics', items: ["Round-trip flight Algiers – Djanet – Algiers (depending on package chosen)", "Airport welcome and transfers in Djanet", "4x4 transport with experienced Tuareg driver"] },
+            { cat: 'Accommodation & Life on site', items: ["Bivouac accommodation", "Bivouac equipment provided: tent, mattress, blanket, pillow", "Full board in the desert: breakfast, lunch, afternoon snack / coffee break, dinner"] },
+            { cat: 'Activities & Discoveries', items: ["Excursions and hikes included in the programme", "Entry fees to sites and parks (Tadrart, rock engravings, oases, etc.)", "Animated evenings around the fire (Tuareg songs and music)"] },
+            { cat: 'Guiding & Support', items: ["French / English / Arabic / Tamazight-speaking Tuareg guide", "Complete on-site assistance and organization", "Visa application assistance"] }
+        ]
     },
     {
         name: 'Ihrir Essendilène', type: 'Bivouac', typeClass: 'type-bivouac',
         duration: '6 days / 5 nights',
         photos: ['Photos/Image 7.webp', 'Photos/Image 12.webp', 'Photos/Image 13.webp'],
-        desc: "Explore the spectacular gorges and rock formations of Ihrir and Essendilène. Natural arches, rock engravings and bivouac under a perfectly clear sky — a total immersion in the Algerian Sahara.",
-        inclus: ['Transfers from/to Djanet', 'Certified Tuareg guide', 'Local logistics team', 'Full bivouac (tents, sleeping bags)', 'Meals and mineral water included']
+        desc: "<p>Discover a living and contrasting Sahara, where water and rock create unexpected landscapes. Between the lush oases of Ihrir, the spectacular gorges of Essendilène and the monumental arches of Tikobaouine, this circuit immerses you in an authentic and peaceful adventure.</p><p>For several nights bivouacking, let yourself be carried by the rhythm of the desert: walk, contemplate, share… and above all feel the vastness and serenity of these timeless places. Welcome to a different Sahara, where gueltas shimmer in the heart of the mountains, where canyons offer coolness and shade, and where each day reveals a new face of the Tassili.</p><h4 class=\"modal-section-title\">Places</h4><p>The Ihrir – Essendilène circuit takes you through some of the most iconic sites of the Tassili n'Ajjer. From the villages of Ihrir, nestled between palm groves and clear waters, to the deep gorges of Essendilène, each stage reveals a unique landscape. At Tikobaouine and Adaïk, immense stone arches rise from the desert, sculpted by time and the elements. The journey continues to Tigharghart, where famous rock engravings bear witness to a thousand-year-old past.</p><h4 class=\"modal-section-title\">Activities</h4><p>Hikes through valleys and canyons, swimming in natural gueltas, exploring rock arches… each day is an invitation to discover and feel. But this trip is also about warm, human moments:</p><ul class=\"modal-activites-list\"><li>Evenings around the fire under a starry sky</li><li>Discovery of Tuareg traditions and way of life</li><li>Relaxation time in the oases</li><li>Games and convivial moments in the heart of nature</li></ul><p>Between gentle adventure, contemplation and sharing, every moment becomes a precious memory.</p>",
+        inclus_cats: [
+            { cat: 'Transport & Logistics', items: ["Round-trip flight Algiers – Djanet – Algiers (depending on package chosen)", "Airport welcome and transfers in Djanet", "4x4 transport with experienced Tuareg driver"] },
+            { cat: 'Accommodation & Life on site', items: ["Bivouac accommodation in the heart of the desert", "Equipment provided: tent, mattress, blanket, pillow", "Full board: breakfast, lunch, afternoon snack / coffee break, dinner"] },
+            { cat: 'Activities & Discoveries', items: ["Hikes and excursions included in the programme", "Access to natural and cultural sites (oases, engravings, canyons…)", "Animated evenings: Tuareg songs, music and atmosphere"] },
+            { cat: 'Guiding & Support', items: ["French / English / Arabic / Tamazight-speaking Tuareg guide", "Complete organization and on-site assistance", "Visa application assistance"] }
+        ]
     },
     {
         name: 'Tadrart Rouge', type: 'Camel', typeClass: 'type-chameau',
@@ -121,8 +141,16 @@ const TRANSLATIONS = {
         'hero-p1': "Avec Mille et un Désert, partez pour un voyage au cœur de l'immensité du Sahara : nuits sous les étoiles, horizons infinis et immersion dans l'univers touareg.",
         'hero-p2': "Spécialisée exclusivement sur Djanet et le Tassili n'Ajjer, notre agence vous propose des voyages authentiques en petits groupes ou sur mesure.",
         'about-h2': "Votre aventure au cœur du Sahara algérien",
-        'about-p1': "Basée à Djanet, porte d'entrée du Tassili n'Ajjer, notre agence vous invite à découvrir l'un des plus beaux déserts du monde. Nous organisons des circuits authentiques qui vous plongent dans la culture touarègue et les paysages à couper le souffle du Sahara algérien.",
-        'about-p2': "Chaque voyage est une immersion totale : bivouac sous les étoiles, rencontres avec les habitants, découverte des gravures rupestres millénaires, et exploration des dunes et canyons majestueux.",
+        'about-p1': "Basée à Djanet, véritable porte d'entrée du Tassili n'Ajjer, notre agence vous invite à vivre une expérience unique au cœur de l'un des plus beaux déserts du monde.",
+        'about-p2': "Spécialistes exclusivement de Djanet et de sa région, nous avons fait le choix de nous consacrer entièrement à ce territoire exceptionnel afin de vous offrir une connaissance fine, authentique et respectueuse du désert et de ses traditions. Passionnés par le désert et profondément attachés à Djanet, c'est cet amour pour cette région unique qui nous a naturellement conduits à créer notre agence. Cette spécialisation nous permet de proposer des circuits soigneusement conçus, loin du tourisme standardisé.",
+        'about-p3': "Nos voyages sont bien plus que de simples excursions : ce sont de véritables immersions dans la culture touarègue et les paysages spectaculaires du Sahara algérien. Chaque séjour est une aventure humaine et sensorielle :",
+        'about-p4': "En choisissant notre agence, vous optez pour une expérience authentique, guidée par des passionnés du désert, profondément attachés à Djanet et à son patrimoine.",
+        'about-li-1': "Bivouacs sous un ciel étoilé d'une pureté incomparable",
+        'about-li-2': "Rencontres sincères avec les habitants et partage de leur mode de vie",
+        'about-li-3': "Découverte des gravures rupestres millénaires du Tassili",
+        'about-li-4': "Exploration de dunes majestueuses, de canyons impressionnants et de formations rocheuses uniques",
+        'about-li-5': "Circuits en chameau pour une immersion traditionnelle au rythme du désert",
+        'about-li-6': "Randonnées à pied pour une exploration plus intime et proche de la nature",
         'about-btn': "Nous contacter",
         'tours-title': "Nos circuits dans le désert",
         'tours-sub': "Djanet & Tassili n'Ajjer — choisissez votre aventure saharienne",
@@ -171,8 +199,16 @@ const TRANSLATIONS = {
         'hero-p1': "With Mille et un Désert, embark on a journey into the heart of the vast Sahara: nights under the stars, endless horizons, and an immersion in the Tuareg world.",
         'hero-p2': "Exclusively specialized in Djanet and the Tassili n'Ajjer, our agency offers authentic small-group or tailor-made trips.",
         'about-h2': "Your adventure in the heart of the Algerian Sahara",
-        'about-p1': "Based in Djanet, gateway to the Tassili n'Ajjer, our agency invites you to discover one of the most beautiful deserts in the world. We organize authentic tours that immerse you in Tuareg culture and the breathtaking landscapes of the Algerian Sahara.",
-        'about-p2': "Every journey is a total immersion: bivouac under the stars, encounters with locals, discovery of ancient rock engravings, and exploration of majestic dunes and canyons.",
+        'about-p1': "Based in Djanet, the true gateway to the Tassili n'Ajjer, our agency invites you to live a unique experience at the heart of one of the world's most beautiful deserts.",
+        'about-p2': "Specialists exclusively in Djanet and its region, we have chosen to devote ourselves entirely to this exceptional territory in order to offer you a deep, authentic and respectful knowledge of the desert and its traditions. Passionate about the desert and deeply attached to Djanet, this love for this unique region naturally led us to create our agency. This specialization allows us to offer carefully designed circuits, far from standardized tourism.",
+        'about-p3': "Our trips are much more than simple excursions: they are true immersions into Tuareg culture and the spectacular landscapes of the Algerian Sahara. Each stay is a human and sensory adventure:",
+        'about-p4': "By choosing our agency, you opt for an authentic experience, guided by desert enthusiasts who are deeply attached to Djanet and its heritage.",
+        'about-li-1': "Bivouacs under a sky of incomparable purity",
+        'about-li-2': "Genuine encounters with local people and sharing their way of life",
+        'about-li-3': "Discovery of the Tassili's ancient rock engravings",
+        'about-li-4': "Exploration of majestic dunes, impressive canyons and unique rock formations",
+        'about-li-5': "Camel treks for a traditional immersion at the desert's pace",
+        'about-li-6': "Walks on foot for a more intimate and nature-close exploration",
         'about-btn': "Contact us",
         'tours-title': "Our desert tours",
         'tours-sub': "Djanet & Tassili n'Ajjer — choose your Saharan adventure",
@@ -325,8 +361,15 @@ function setLang(lang) {
         mBadge.textContent = c.type;
         mDur.textContent   = c.duration;
         mTitle.textContent = c.name;
-        mDesc.textContent  = c.desc;
-        mInclus.innerHTML  = c.inclus.map(item => `<li>${item}</li>`).join('');
+        mDesc.innerHTML    = c.desc;
+        if (c.inclus_cats) {
+            mInclus.innerHTML = c.inclus_cats.map(cat =>
+                `<li class="inclus-cat-header">${cat.cat}</li>` +
+                cat.items.map(item => `<li>${item}</li>`).join('')
+            ).join('');
+        } else {
+            mInclus.innerHTML = c.inclus.map(item => `<li>${item}</li>`).join('');
+        }
         modal.setAttribute('aria-hidden', 'false');
         modal.classList.add('open');
         document.body.style.overflow = 'hidden';
@@ -440,20 +483,26 @@ const spyObserver = new IntersectionObserver(entries => {
 
 sections.forEach(s => spyObserver.observe(s));
 
-// ── Avis Google via Places API ──────────────────────────────────────────────
-// Remplacez ces deux valeurs avant mise en ligne :
-const GOOGLE_API_KEY  = 'AIzaSyB9XwJWg6zWnu88K2VxRsRmc-VAGPBWurg';
-const GOOGLE_PLACE_ID = 'ChIJIbMt8lZCvq8RnAc2OxVFldo';  // Mille et un Désert — Djanet
+// ── Avis Google ─────────────────────────────────────────────────────────────
+// Les avis ne sont plus demandés à Google depuis le navigateur : une GitHub Action
+// (.github/workflows/pages.yml) les récupère chaque jour avec une clé secrète et
+// publie reviews.fr.json / reviews.en.json à côté du site. Aucune clé côté client.
+const REVIEWS_LANG = window.__INIT_LANG__ === 'en' ? 'en' : 'fr';
+const REVIEWS_URL  = (REVIEWS_LANG === 'en' ? '../' : './') + `reviews.${REVIEWS_LANG}.json`;
+
+const escapeHtml = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
 async function loadGoogleReviews() {
     const grid = document.getElementById('reviews-grid');
     if (!grid) return;
-    const url = `https://places.googleapis.com/v1/places/${GOOGLE_PLACE_ID}` +
-                `?languageCode=fr&key=${GOOGLE_API_KEY}`;
-    const res = await fetch(url, {
-        headers: { 'X-Goog-FieldMask': 'reviews,rating,userRatingCount' }
-    });
-    const data = await res.json();
+    let data;
+    try {
+        const res = await fetch(REVIEWS_URL, { cache: 'no-cache' });
+        if (!res.ok) return;
+        data = await res.json();
+    } catch (e) {
+        return; // pas encore de fichier d'avis : la section reste discrète
+    }
 
     // Note globale dynamique
     if (data.rating) {
@@ -480,14 +529,14 @@ async function loadGoogleReviews() {
         grid.innerHTML = reviews.map((r, i) => `
             <div class="review-api-card" data-index="${i}">
                 <div class="review-author-row">
-                    <div class="review-avatar">${(r.authorAttribution?.displayName || '?').charAt(0).toUpperCase()}</div>
+                    <div class="review-avatar">${escapeHtml((r.authorAttribution?.displayName || '?').charAt(0).toUpperCase())}</div>
                     <div class="review-author-info">
-                        <span class="review-author-name">${r.authorAttribution?.displayName || 'Anonyme'}</span>
-                        <span class="review-date">${r.relativePublishTimeDescription || ''}</span>
+                        <span class="review-author-name">${escapeHtml(r.authorAttribution?.displayName || 'Anonyme')}</span>
+                        <span class="review-date">${escapeHtml(r.relativePublishTimeDescription || '')}</span>
                     </div>
                 </div>
                 <div class="review-stars">${'★'.repeat(r.rating)}${'☆'.repeat(5 - r.rating)}</div>
-                <p class="review-text">${r.text?.text || ''}</p>
+                <p class="review-text">${escapeHtml(r.text?.text || '')}</p>
                 <button class="review-read-more">Lire la suite →</button>
             </div>
         `).join('');

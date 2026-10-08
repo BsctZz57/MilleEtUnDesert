@@ -1,0 +1,6 @@
+# Config et clés locales
+config.js
+# Réglages locaux de l'assistant (chemins de la machine)
+.claude/
+# Fichiers d'avis générés par la GitHub Action
+reviews.*.json
